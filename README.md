@@ -69,4 +69,5 @@
 ├─ ⭐index.html # トップページ (/)
 ├─ second.html # セカンドページ (/second)
 └─ third.html # サードページ (/third)
-# 3-1-
+
+#Three-school joint intramural contest
