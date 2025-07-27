@@ -27,7 +27,7 @@
 5. 各ページへのアクセス方法：
    - トップページ: `http://localhost:5173/`
    - セカンドページ: `http://localhost:5173/second.html`
-   - サードページ: `http://localhost:5173/third.html`
+   - サードページ: `http://localhost:5173/kira.html`
 
 ## プロジェクト概要
 
@@ -50,7 +50,7 @@
 css/
 ├── style.css           # トップページ用スタイル
 ├── second.css          # セカンドページ用スタイル
-└── third.css           # サードページ用スタイル
+└── kira.css           # サードページ用スタイル
 ```
 
 ### 画像ファイル
@@ -72,7 +72,7 @@ src/
 │   │   ├── main.tsx    # ⚛️ React エントリーポイント
 │   │   └── components/ # セカンド固有コンポーネント
 │   │
-│   └── third/          # サードページ関連
+│   └── kira/          # サードページ関連
 │       ├── main.tsx    # ⚛️ React エントリーポイント
 │       └── components/ # サード固有コンポーネント
 │
@@ -84,7 +84,7 @@ src/
 ```
 ├── index.html          # ⭐ トップページ (/)
 ├── second.html         # セカンドページ (/second)
-└── third.html          # サードページ (/third)
+└── kira.html          # サードページ (/kira)
 ```
 
 ## 全体構成
@@ -94,11 +94,11 @@ frontend/
 ├── css/
 │   ├── style.css
 │   ├── second.css
-│   └── third.css
+│   └── kira.css
 │
 ├── images/
 │
-
+│
 │
 ├── src/
 │   ├── pages/
@@ -108,12 +108,12 @@ frontend/
 │   │   ├── second/
 │   │   │   ├── main.tsx
 │   │   │   └── components/
-│   │   └── third/
+│   │   └── kira/
 │   │       ├── main.tsx
 │   │       └── components/
 │   └── tailwind.css
 │
 ├── index.html
 ├── second.html
-└── third.html
+└── kira.html
 ```

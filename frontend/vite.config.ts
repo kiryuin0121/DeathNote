@@ -11,7 +11,7 @@ export default defineConfig({
       input: {
         main: path.resolve(__dirname, "index.html"),
         second: path.resolve(__dirname, "second.html"),
-        third: path.resolve(__dirname, "third.html"),
+        kira: path.resolve(__dirname, "kira.html"),
       },
     },
   },
